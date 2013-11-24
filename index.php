@@ -25,7 +25,8 @@ function changeColor($hex, $amount) {
 }
 
 
-$bootstrap='.btn-%CLASS% {
+$bootstrap='/* Button Generator: http://apps.rotten77.cz/b3bg/ */
+.btn-%CLASS% {
 	background-color: #%COLOR_ORIG%;
 	border-color: #%COLOR_ORIG_BRD%;
 	color:#%TEXT_COLOR%;
